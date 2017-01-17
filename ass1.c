@@ -13,6 +13,7 @@ float x[10000], y[10000], z[10000];
 int i, c1=0;
 
 f1 = fopen("12as.pdb","r");
+f2 = fopen("a.pdb","w");
 while(fgets(line,100,f1)!=NULL)
 {
 	for(i=0; i<4;i++) word[i] = line[i];
@@ -49,7 +50,7 @@ while(fgets(line,100,f1)!=NULL)
 		{
 			chain_id[c1][i] = line[i+21];
 		}
-		res_nm[c1][1] = '\0';
+		chain_id[c1][1] = '\0';
 		printf("%s\t",chain_id[c1]);
 		
 		//res_nm
@@ -87,12 +88,21 @@ while(fgets(line,100,f1)!=NULL)
 		z_no[8] = '\0'; 
 		z[c1] = atof(z_no);
 		printf("%f\n",z[c1]);
+
+		c1++;
 		
 		
 	}
+
+
 }
 
-c1++;
+for(i=0;i<c1;i++)
+		{
+			fprintf(f2,"ATOM  %5d %s %s %s%4d    %8.3f%8.3f%8.3f\n",store_atm_no[i],atom_nm[i],res_nm[i],chain_id[i],store_res_no[i],x[i],y[i],z[i]);
+		}
+fclose(f2);
+fclose(f1);
 
 }
 

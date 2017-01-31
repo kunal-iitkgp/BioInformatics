@@ -1,0 +1,12 @@
+List of tools used: 
+  ProtParam
+  Lalign
+  Prosite
+  ClustalW
+  Swiss-Model
+
+Key points:
+  Multiple and Pair wise alignment
+  Global and Local Alignment
+  E value to prevent overlaping of the aligned Sequence
+  Better Resolution for Template Selection

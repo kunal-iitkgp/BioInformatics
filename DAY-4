@@ -1,0 +1,15 @@
+FRAMES 
+      - rule of thumb that frame should be selected which provides the longest amino acid sequence 
+Homologs
+Orthologs
+Paralogs
+Xenologs
+
+BLAST 
+Given a gene ToDo - 
+                    Find Gene Sequence
+                    Translate
+                    Amino Acid Sequence
+                    Blast
+                    Multiple Sequence Alignment Clustal W
+                    

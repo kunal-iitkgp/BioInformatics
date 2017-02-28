@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Tue 28 Feb 2017 10:33:49
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20170228-103349-0005-87620344-oy.asequence
+#    -bsequence emboss_needle-I20170228-103349-0005-87620344-oy.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Kq_ftsA
+# 2: Se_ftsA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 429
+# Identity:     413/429 (96.3%)
+# Similarity:   418/429 (97.4%)
+# Gaps:           9/429 ( 2.1%)
+# Score: 2098.0
+# 
+#
+#=======================================
+
+Kq_ftsA            1 MIKATDRKLVVGLEIGTAKVAALVGEVLPDGMINIIGVGSCPSRGMDKGG     50
+                     ||||||||||||||||||||||||||||||||:|||||||||||||||||
+Se_ftsA            1 MIKATDRKLVVGLEIGTAKVAALVGEVLPDGMVNIIGVGSCPSRGMDKGG     50
+
+Kq_ftsA           51 VNDLESVVKCVQRAIDQAELMADCQISSVYLALSGKHISCQNEIGMVPIS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Se_ftsA           51 VNDLESVVKCVQRAIDQAELMADCQISSVYLALSGKHISCQNEIGMVPIS    100
+
+Kq_ftsA          101 EEEVTLDDVENVVHTAKSVRVRDEHRVLHVIPQEYAIDYQEGIKNPVGLS    150
+                     |||||.:|||||||||||||||||||||||||||||||||||||||||||
+Se_ftsA          101 EEEVTQEDVENVVHTAKSVRVRDEHRVLHVIPQEYAIDYQEGIKNPVGLS    150
+
+Kq_ftsA          151 GVRMQAKVHLITCHNDMAKNIVKAVERCGLKVDQLIFAGLAASYSVLTED    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Se_ftsA          151 GVRMQAKVHLITCHNDMAKNIVKAVERCGLKVDQLIFAGLAASYSVLTED    200
+
+Kq_ftsA          201 ERELGVCVVDIGGGTMDIAVYTGGALRHTKVIPYAGNVVTSDIAYAFGTP    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Se_ftsA          201 ERELGVCVVDIGGGTMDIAVYTGGALRHTKVIPYAGNVVTSDIAYAFGTP    250
+
+Kq_ftsA          251 PSDAEAIKVRHGCALGSIVGKDENVEVPSVGG---------RPPRSLQRQ    291
+                     |||||||||||||||||||||||:||||||||         .||||||||
+Se_ftsA          251 PSDAEAIKVRHGCALGSIVGKDESVEVPSVGGXXXXXXXXXXPPRSLQRQ    300
+
+Kq_ftsA          292 TLAEVIEPRYTELLNLVNEEILQLQEQLRQQGVKHHLAAGIVLTGGAAQI    341
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Se_ftsA          301 TLAEVIEPRYTELLNLVNEEILQLQEQLRQQGVKHHLAAGIVLTGGAAQI    350
+
+Kq_ftsA          342 EGLASCAQRVFHTQVRIGAPLNITGLTDYAQEPYYSTAVGLLHYGKESHL    391
+                     ||||:|||||||||||||||||||||||||||||||||||||||||||||
+Se_ftsA          351 EGLAACAQRVFHTQVRIGAPLNITGLTDYAQEPYYSTAVGLLHYGKESHL    400
+
+Kq_ftsA          392 SGEAEVEKRVTASVGSWIKRLNSWLRKEF    420
+                     :||||||||||||||||||||||||||||
+Se_ftsA          401 NGEAEVEKRVTASVGSWIKRLNSWLRKEF    429
+
+
+#---------------------------------------
+#---------------------------------------
